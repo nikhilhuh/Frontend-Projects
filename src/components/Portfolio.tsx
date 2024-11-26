@@ -1,12 +1,5 @@
-import { useEffect } from "react";
-import $ from "jquery";
-import "foundation-sites"; 
-
 function Portfolio() {
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
+
   return (
     <div className="off-canvas-wrapper">
     <div className="off-canvas-wrapper-inner" data-off-canvas-wrapper>

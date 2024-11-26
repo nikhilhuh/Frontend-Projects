@@ -1,12 +1,6 @@
-import { useEffect } from "react";
-import $ from "jquery";
-import "foundation-sites";
+import React from 'react';
 
 function Blog() {
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
 
   interface Content {
     title: string;

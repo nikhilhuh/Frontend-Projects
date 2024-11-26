@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import $ from 'jquery';
-import 'foundation-sites';
+import React from 'react';
 
 const Agency: React.FC = () => {
 
@@ -52,11 +50,6 @@ const Agency: React.FC = () => {
       para: `Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.`,
     },
   ]
-
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
 
   return (
     <div>

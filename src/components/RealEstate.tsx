@@ -1,12 +1,4 @@
-import { useEffect } from "react";
-import $ from "jquery";
-import "foundation-sites";
-
 function RealEstate() {
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
 
   interface SocialLink {
     name: string;

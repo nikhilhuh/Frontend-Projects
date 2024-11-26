@@ -1,12 +1,4 @@
-import { useEffect } from "react";
-import $ from "jquery";
-import "foundation-sites";
-
 function ECommerce() {
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
   const numbers: string[] = ["One", "Two", "Three", "Four"];
 
   return (

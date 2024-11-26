@@ -1,12 +1,5 @@
-import { useEffect } from "react";
-import $ from "jquery";
-import "foundation-sites";
-
 function ProductPage() {
-  useEffect(() => {
-    // Initialize Foundation when the component mounts
-    $(document).foundation();
-  }, []);
+  
   return (
     <div>  
       {/* <!-- Start Top Bar --> */}
